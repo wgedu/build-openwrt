@@ -190,7 +190,7 @@ jobs:
         if [ ${{matrix.target}} = Lede_phicomm_n1 -o ${{matrix.target}} = Project_phicomm_n1 ];then
          cp openwrt/bin/targets/armvirt/*/*.tar.gz reform/openwrt
          cd reform
-         sudo ./gen_openwrt -s 512 -d -k latest
+         sudo ./gen_openwrt -s 1024 -d -k latest
          
          devices=("phicomm-n1" "rk3328" "s9xxx" "vplus")
          cd out
