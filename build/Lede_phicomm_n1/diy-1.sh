@@ -5,6 +5,7 @@ git clone https://github.com/fw876/helloworld package/luci-app-ssr-plus
 git clone https://github.com/vernesong/OpenClash package/luci-app-openclash
 git clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
 git clone https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
+git clone https://github.com/garypang13/luci-app-bypass
 
 
 # 基本不需要添加啥插件了,我搜集了各位大神的插件都集成一个软件包直接打入源码里面了
